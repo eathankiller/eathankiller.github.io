@@ -1,2 +1,2 @@
-# eathankiller.github.io
-this is my private website
+
+this is my private website for me only and one other.
