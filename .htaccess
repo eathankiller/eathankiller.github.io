@@ -1,12 +1,12 @@
 AuthName "the wink wink.html"
             AuthType Basic
-            AuthUserFile /home/username/.htpasswds
+            AuthUserFile .htpasswds
             Require valid-user 
 
 #Allow List
             
             order deny,allow
-            allow from 123.123.123.123 #specify a specific address
+            allow from 192.168.0.112 #specify a specific address
             allow from 123.123.123.123/30 #specify a subnet range
             allow from 123.123.* #specify an IP address wildcard
             deny from all
