@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            div.ex2 {
+                max-width: auto;
+                margin: auto;
+                border: 3px solid #73AD21;
+            }
+            /* Style the top navigation bar */
+            .topnav {
+                overflow: hidden;
+                background-color: skyblue;
+                position: sticky;
+                top: 0;
+                z-index:1;
+            }
+            /* Style the topnav links */
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            /* Change color on hover */
+            .topnav a:hover {
+                background-color: #ddd;
+                color: deepskyblue;
+            }
+            .content {
+                margin-left: 220px;
+                padding-left: 20px;
+            }
+        </style>
+        <div class="topnav">
+             <a href="https://drive.google.com/file/d/1YIxMrG8F9IOXVcZC73wZiahRIDZ9yZHv/view?usp=sharing">Julia</a></a>
+             <a href="https://drive.google.com/file/d/1S5KDF7eZjZvt3XTI6X3kIniB8ZeyHNlL/preview">Love</a>
+             <a href="https://drive.google.com/file/d/1-XVm8tyPWIlXFG21tJEYMNdpH0DBndfE/view?usp=sharing">*wink wink*</a>
+        </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <body>
+
+            <div class="w3-sidebar w3-bar-block w3-light-grey">
+                <button class="w3-bar-item w3-button" onclick="openCity('London')">Diary homepage</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Paris')">First long message left on this website</button>
+                <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Keep an eye on here</button>
+            </div>
+
+            <div id="London" class="content w3-container city w3-animate-left">
+                 <h2></h2>
+
+                <p>hello everyone mine name is pee-nut (not really..its pee-ach)
+                    <br>this page is going to be for our love
+                    <3</p>
+            </div>
+
+            <div id="Paris" class="content w3-container city  w3-animate-left">
+                <div class=".content">
+                     <h2>15/04/2019</h2>
+                    <p>I know i haven't done much on this page and it looks rather bare and yuck (lol) but i just wanted to tell you that i love you so much Julia. You mean so much to me and i don't know what i would ever do without you. You are my world,
+                        my dreams, my everything. When i first started talking to you i knew you were different. There was something in you that I saw, on a deep level. I couldn't help but fall in love with you. You are just such an amazing person. I
+                        love everything about you, from the way that you are so caring and always put others first to you're stunning looks and personality. I love you Julia and i always will</p>
+                </div>
+                <div id="Paris" class="content w3-container city  w3-animate-left">
+
+                     <h2>15/04/2019</h2>
+                    <p>gdg</p>
+                    <script>
+                        function openCity(cityName) {
+                            var i;
+                            var x = document.getElementsByClassName("city");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            document.getElementById(cityName).style.display = "block";
+                        }
+                    </script>
+        </body>
+
+</html>
