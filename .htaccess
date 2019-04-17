@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Stop and Enter Details"
-AuthUserFile eathankiller.github.io/.htmyxyz
+AuthUserFile https://eathankiller.github.io/.htmyxyz
 require valid-user
